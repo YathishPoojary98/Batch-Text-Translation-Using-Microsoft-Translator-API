@@ -23,13 +23,13 @@ A Python script for **batch text translation** using the **Microsoft Translator 
 Make sure you have **requests** installed:
 ```bash
 pip install requests
+```
 📌 Usage
 Run the script from the command line with the following arguments:
 
-bash
-Copy
-Edit
+```bash
 python translate_script.py input.txt output.txt target_language
+```
 Arguments:
 input.txt – File containing the text to be translated.
 output.txt – File where the translated text will be saved.
@@ -37,10 +37,9 @@ target_language – Language code for translation (e.g., kn for Kannada, es for 
 Example
 To translate data.txt into Kannada (kn) and save it to translated_data.txt:
 
-bash
-Copy
-Edit
+```bash
 python translate_script.py data.txt translated_data.txt kn
+```
 Output: The translated content will be written to translated_data.txt.
 
 📜 API Details
