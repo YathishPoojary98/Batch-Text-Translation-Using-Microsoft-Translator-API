@@ -42,20 +42,31 @@ python translate_script.py data.txt translated_data.txt kn
 ```
 Output: The translated content will be written to translated_data.txt.
 
-📜 API Details
-Endpoint: https://api.cognitive.microsofttranslator.com/
-API Version: 3.0
-Required Headers:
-Ocp-Apim-Subscription-Key
-Ocp-Apim-Subscription-Region
-Content-Type
-🔍 Code Highlights
-✅ Custom Class MicrosoftTranslator – Handles API communication.
-✅ Efficient Processing – Reads input line by line for optimized translation.
-✅ Handles Empty Lines – Skips empty lines gracefully.
-✅ Clean Output – Outputs translated text line by line in the specified language.
+## 📜 API Details
 
-💡 Ideal Use Cases
-✔ Bulk Text Translation – Automate translation of large text files.
-✔ Multilingual Content Processing – Process documents in multiple languages.
-✔ Workflow Automation – Enhance applications needing translation services.
+- **Endpoint:** `https://api.cognitive.microsofttranslator.com/`  
+- **API Version:** `3.0`  
+
+### **Required Headers:**
+- `Ocp-Apim-Subscription-Key`  
+- `Ocp-Apim-Subscription-Region`  
+- `Content-Type`  
+
+---
+
+## 🔍 Code Highlights
+
+✅ **Custom Class `MicrosoftTranslator`** – Handles API communication.  
+✅ **Efficient Processing** – Reads input **line by line** for optimized translation.  
+✅ **Handles Empty Lines** – Skips empty lines gracefully.  
+✅ **Clean Output** – Outputs **translated text** line by line in the specified language.  
+
+---
+
+## 💡 Ideal Use Cases
+
+✔ **Bulk Text Translation** – Automate translation of large text files.  
+✔ **Multilingual Content Processing** – Process documents in multiple languages.  
+✔ **Workflow Automation** – Enhance applications needing translation services.  
+
+
